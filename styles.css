@@ -1,0 +1,139 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-picture {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('pink-solid-color-364gx2fy3h6alydq.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+
+/* Header */
+header {
+    background: #1d1d1d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Portfolio */
+.project {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+#education {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 2.2rem;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+.education-item {
+    background: #f1f1f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+    font-size: 1.5rem;
+    color: #2C3E50;
+}
+
+.education-item p,
+.education-item ul {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.education-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education-item ul li {
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+
+/* Contact */
+#contact a {
+    color: #ff4757;
+}
+
+/* Footer */
+footer {
+    background: #1d1d1d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
